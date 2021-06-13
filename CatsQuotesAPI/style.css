@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: beige;
+  color: black;
+}
+
+.fact-wrapper {
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+button {
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+  background: salmon;
+  color: white;
+  cursor: pointer;
+  width: 130px;
+  height: 70px;
+  transition: 0.3s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.2);
+}
+
+.quote {
+  margin-top: 4rem;
+  font-size: 2rem;
+  width: 50%;
+}
